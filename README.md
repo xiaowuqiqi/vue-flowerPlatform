@@ -2,7 +2,7 @@ README.md
 
 #[flowerPlatform](https://github.com/wallacety/vue-flowerPlatform/commit/886920dfd2a458332678ce211437523a40dce361)
 
-###鲜花售花系统
+### 鲜花售花系统
 
 这是我的第一个vue项目，技术栈采用vue+Node+Mongodb组合。前端使用vue-cli脚手架工具快速建站，通过使用proxyTable代理跨域请求后端数据，后端根据url进行路由转发，完成业务处理。
 
