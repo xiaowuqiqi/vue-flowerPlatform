@@ -1,6 +1,6 @@
 README.md
 
-#[flowerPlatform](https://github.com/wallacety/vue-flowerPlatform/commit/886920dfd2a458332678ce211437523a40dce361)
+# [flowerPlatform](https://github.com/wallacety/vue-flowerPlatform/commit/886920dfd2a458332678ce211437523a40dce361)
 
 ### 鲜花售花系统
 
