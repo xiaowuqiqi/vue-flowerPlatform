@@ -1,0 +1,35 @@
+{
+  "orderNumber": "2018051300343182928",
+  "orderType": "2",//订单类型1：已经支付，2：运输途中，3：订单完成
+  "orderTypeName":"运输途中",
+  "orderDiscount":0,//折扣金额
+  "orderTotal": 500,
+  "orderDate":"2018-05-06|20:15:00",
+  "sendDate":"2018-05-07|20:15:00",
+  "user": {
+    "userId": "_id",
+    "Tel": "13075321389",
+    "Name": "杨帆",
+    "Email": "@a."
+  },
+  "orderGoods": [
+    {
+      "orderGoodsId": 0,
+      //collection数组的下标
+      "goodsId": "_id",
+      "goodsNum": 5,
+      //商品数量
+      "goodsTotalPrice": 500
+      //商品小计
+    }
+  ],
+  "recAddress": {
+    "consignee": "小花",
+    "Tel": "13075321389",
+    "address": "泰山明军小区内33好楼3单元"
+  },
+  "senderName": "小辉",//送华人名字
+  "senderTel":1555065113,//送华人电话
+  "blessing":"祝福语",//祝福
+  "remark": "包得好看些1"//备注
+}
