@@ -1,0 +1,227 @@
+.about-banner{
+  background: url(/static/images/1.jpg) no-repeat 0px 0px;
+  background-size: cover;
+}
+.about-heading h2{
+  padding: 0.2em 0;
+  font-size: 3em;
+}
+/*-- header-left --*/
+.header-bg{
+  height: 110px;
+}
+.header {
+  position: fixed;
+  z-index: 500;
+  width: 100%;
+  background: #ffffff;
+  padding: 1em 0;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.16);
+}
+
+.header-scroll{
+
+  padding: 0;
+}
+.header-scroll .header-right{
+  margin: 8px;
+}
+.header-scroll .header-left{
+  /*margin: -10px 0px -5px 0px;*/
+  /*height: 70px;*/
+
+}
+.header-scroll .header-left a{
+  font-size: 30px;
+}
+.header-left{
+  float: left;
+}
+.wzlayouts-logo h1 {
+  margin: 0;
+}
+.wzlayouts-logo h1 a {
+  color: #2f2f2f;
+  font-size: 2em;
+  text-decoration: none;
+  font-weight: 600;
+}
+.wzlayouts-logo h1 a span{
+  font-weight: 300;
+  font-size: .4em;
+  text-transform: uppercase;
+}
+/*-- //header-left --*/
+.header-right{
+  float: right;
+  margin: 1.4em 0 0 0;
+}
+/*-- top-nav 导航栏一排按钮 --*/
+.top-nav{
+  margin: .5em 0 0 0;
+  float: left;
+}
+.top-nav ul{
+  padding: 0;
+  margin: 0;
+}
+.top-nav ul li{
+  display: inline-block;
+  margin: 0 1em;
+  float: left;
+}
+.top-nav ul li:nth-child(6){
+  margin-right:0;
+}
+ul.nav.navbar-nav {
+  float: right;
+}
+.navbar-default{
+  background: none;
+  border: none;
+  margin: 0;
+}
+.navbar {
+  min-height: 0;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  background: none !important;
+  box-shadow: 1px 0px 0px 0px rgba(72, 72, 72, 0);
+}
+.top-nav ul li a{
+  color: #2f2f2f !important;
+  font-size: 1em;
+  margin: 0;
+  text-decoration: none;
+  padding: 0;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.top-nav ul li a:hover{
+  color: #18d26e !important;
+}
+.top-nav ul li a.active{
+  color: #18d26e !important;
+}
+ul.dropdown-menu {
+  background: rgba(0, 0, 0, 0.27);
+  box-shadow: 0 0 0;
+  border: none;
+  margin: 0;
+  top: 3em;
+  left: 0;
+  min-width: 90px;
+}
+.dropdown-menu > li > a {
+  display: block;
+  padding: 0px 0px !important;
+  clear: both;
+  margin: .2em 0 !important;
+  font-weight: normal;
+  line-height: 1.42857143;
+  color: #FFF !important;
+  border: none !important;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  background: none;
+}
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 103%;
+  margin-top: -6px;
+  margin-left: -1px;
+  -webkit-border-radius: 0 6px 6px 6px;
+  -moz-border-radius: 0 6px 6px;
+  border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-width: 5px 0 5px 5px;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+  border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+  float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  -webkit-border-radius: 6px 0 6px 6px;
+  -moz-border-radius: 6px 0 6px 6px;
+  border-radius: 6px 0 6px 6px;
+}
+/*-- //top-nav --*/
+
+/*-- social-icons 右上角四个小图标 --*/
+.user-log-on,.user-log-off{
+  float: right;
+  margin-left: 3em;
+}
+.user-log-on ul,.user-log-off ul{
+  padding:0;
+  margin:0;
+}
+.user-log-on ul li,.user-log-off ul li{
+  text-align: center;
+  display: inline-block;
+  margin: 0 0 0 20px;
+}
+.user-log-on li span,.user-log-off span{
+  /*margin: 0 0 2px 10px;*/
+  display: block;
+  font-size: 8px;
+  color: #333333;
+  opacity: 0.7;
+}
+.user-log-on ul i{
+  font-size: 18px;
+}
+.user-log-on ul li a {
+  color: #333;
+  text-align: center;
+  position: relative;
+}
+.user-log-on li:nth-child(1):hover .fa-shopping-cart{
+  color: #337ab7;
+}
+.user-log-on li:nth-child(2):hover .fa-male{
+  color: #f35041;
+}
+.user-log-on li:nth-child(1):hover span,
+.user-log-on li:nth-child(2):hover span{
+  opacity: 1;
+}
+.user-log-on em{
+  position: absolute;
+  top: -5px;
+  left: 10px;
+
+}
+.user-log-off i{
+  color: #333333;
+  opacity: 0.7;
+}
+.user-log-off li:hover i{
+  color: #333333;
+  opacity:1;
+}

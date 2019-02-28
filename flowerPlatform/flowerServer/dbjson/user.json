@@ -1,0 +1,39 @@
+{
+  "Tel": "13075321389",
+  "Password": "123",
+  "Name": "杨帆",
+  "Img": "",
+  "Email": "",
+  "cart":[
+    {
+      //collection数组的下标
+      "goodsId": "_id",
+      "goodsNum": 5,
+      //商品数量
+      "goodsTotalPrice": 500,
+      //小计
+      "goodsCheck": true
+    }
+  ],
+  "userOrder": [//订单
+    {
+      "orderId":"_id",
+      "orderNumber": "2018051300343182928",
+      "orderType": "2"//订单类型1：支付，2：运输，3：完成
+    }
+  ],
+  "collectionGoods": [//收藏
+    {
+      "collectionId": 0,
+      //collection数组的下标
+      "goodsId": "_id"
+    }
+  ],
+  "recAddress": [//住址
+    {
+      "consignee":"小花",
+      "Tel":"13075321389",
+      "address":"泰山明军小区内33好楼3单元"
+    }
+  ]
+}
